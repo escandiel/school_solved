@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    width: 100%;
+}
+
+.cabecalho__conteudo {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho__conteudo-logo   {   
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.cabecalho__conteudo-item {
+    text-decoration: none;
+    color: #737373;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
